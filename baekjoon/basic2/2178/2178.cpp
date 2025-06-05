@@ -48,3 +48,42 @@ int main(){
     return 0;
 
 }
+
+'''
+#include <stdio.h>
+#include <queue>
+#include <tuple>
+using namespace std;
+const int max_n = 104;
+int dy[4] = {0,0,1,-1};
+int dx[4] = {1,-1,0,0};
+int n, m, a[max_n][max_n], visited[max_n][max_n];
+int y, x, ny, nx;
+
+int main(){
+    scanf("%d %d", &n, &m);
+    for(int i=0; i<n; i++){
+        for(int j=0; j<m; j++){
+            scanf("%1d", &a[i][j]);
+        }
+    }
+    queue<pair<int, int>> q;
+    visited[0][0] = 1;
+    q.push({0, 0});
+
+    while (q.size()){
+        tie(y, x) = q.front(); q.pop();
+        for(int i=0; i<4; i++){
+            ny = y + dy[i];
+            nx = x + dx[i];
+            if (ny >= n || ny < 0 || nx >= m || nx < 0) continue;
+            if (visited[ny][nx] == 0 && a[ny][nx] == 1){
+                visited[ny][nx] = visited[y][x] + 1;
+                q.push({ny, nx});
+            }
+        }
+    }
+    printf("%d\n", visited[n-1][m-1]);
+    return 0;
+}
+'''
