@@ -2,41 +2,31 @@
 
 #include <iostream>
 using namespace std;
-#define left aaa
-#define right aaaa
-int n, m, j, a, ret;
-int left, right;
-int pos[11];
+int n, m, l, r, j, tmp, ret;
 
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL); cout.tie(NULL);
-    cin >> n >> m;
-    for(int i=0; i<m; i++){
-        pos[i] = 1;
-    }
-    left = 0;
-    right = m-1;
 
-    cin >> j;
+    cin >> n >> m;
+    l = 1;
+    cin >> j; 
     for(int i=0; i<j; i++){
-        cin >> a;
-        while(pos[a-1] != 1){
-            if(a-1 > right){
-                pos[left] = 0;
-                left++;
-                pos[right+1] = 1;
-                right++;
-            } 
+        cin >> tmp;
+        r = l+m-1;
+        if(l<=tmp && tmp<=r) continue;
+        else{
+            if(l > tmp){
+                ret += (l-tmp);
+                l -= (l-tmp);
+            }
             else{
-                pos[right] = 0;
-                right--;
-                pos[left-1] =1;
-                left--;
-            } 
-            ret++;
-        } 
+                ret += (tmp-r);
+                l += (tmp-r);
+            }
+        }
     }
     cout << ret << '\n';
+
     return 0;
 }
