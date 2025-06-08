@@ -43,3 +43,42 @@ int main(){
     }
     return 0;
 }
+/*
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int t;
+vector<string> v;
+string s, ret;
+
+void go(){
+    while(ret.size() && ret.front() == '0') ret.erase(ret.begin());
+    if(ret.size() == 0) ret = '0';
+    v.push_back(ret);
+    ret = "";
+}
+
+bool cmp(string a, string b){
+    if(a.size() == b.size()) return a < b;
+    return a.size() < b.size();
+}
+
+int main(){
+    ios_base::sync_with_stdio(false); cin.tie(NULL);
+    cin >> t;
+    while(t--){
+        cin >> s;
+        ret = "";
+        for(int i=0; i<s.size(); i++){
+            if(s[i] < 65) ret += s[i];
+            else if(ret.size()) go();
+        }
+        if(ret.size()) go();
+    }
+    sort(v.begin(), v.end(), cmp);
+    for(auto i : v) cout << i << '\n';
+    return 0;
+}
+*/
