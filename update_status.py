@@ -79,8 +79,8 @@ for site in df_sorted['site'].unique():
                     code_root = row['code_root']
 
                     if site.lower() == '백준' and prob_num:
-                        code_py = f"[python](./baekjoon/{code_root}/{prob_num}/{prob_num}.py)"
-                        code_cpp = f"[c++](./baekjoon/{code_root}/{prob_num}/{prob_num}.cpp)"
+                        code_py = f"[Python](./baekjoon/{code_root}/{prob_num}/{prob_num}.py)"
+                        code_cpp = f"[C++](./baekjoon/{code_root}/{prob_num}/{prob_num}.cpp)"
                     else:
                         code_py = ""
                         code_cpp = ""
