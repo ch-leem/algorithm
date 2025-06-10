@@ -19,6 +19,7 @@ df['time'] = df['time'].apply(lambda x: str(x).split(' ')[-1])
 # 상태 정렬 우선순위
 status_priority = {'solved': 0, 'solved with hint': 1, 'unsolved': 2}
 df['status_order'] = df['status'].map(status_priority)
+ordered_statuses = sorted(status_priority, key=lambda x: status_priority[x])
 
 # 난이도 정렬 우선순위 (어려운 → 쉬운)
 level_rank = {
@@ -59,7 +60,10 @@ for site in df_sorted['site'].unique():
     markdown_output += f"\n## {site}\n"
     site_df = df_sorted[df_sorted['site'] == site]
 
-    for status in site_df['status'].unique():
+    for status in ordered_statuses:
+        status_df = site_df[site_df['status'] == status]
+        if status_df.empty:
+            continue
         markdown_output += "\n---\n"
         markdown_output += f"\n**{status.upper()}**\n"
         status_df = site_df[site_df['status'] == status]
