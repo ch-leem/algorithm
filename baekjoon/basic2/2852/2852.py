@@ -45,3 +45,41 @@ ret2 = to_format(ret_b)
 
 sys.stdout.write(ret1+'\n')
 sys.stdout.write(ret2+'\n')
+
+'''
+import sys
+
+def change_s(s):
+    m, sec = s.split(':')
+    return int(m) * 60 + int(sec)
+
+def go(sum, s):
+    return sum + (change_s(s) - change_s(prev))
+
+def print_ans(sum):
+    m = sum // 60
+    sec = sum % 60
+    print(f"{m:02}:{sec:02}")
+    return
+
+n = int(sys.stdin.readline())
+a = 0
+b = 0
+a_sum = 0
+b_sum = 0
+for _ in range(n):
+    t, s = sys.stdin.readline().rstrip().split()
+    if a > b:
+        a_sum = go(a_sum, s)
+    elif b > a:
+        b_sum = go(b_sum, s)
+    if t == '1':
+        a += 1
+    else:
+        b += 1
+    prev = s
+if a > b : a_sum = go(a_sum, "48:00")
+elif b > a : b_sum = go(b_sum, "48:00")
+print_ans(a_sum)
+print_ans(b_sum)
+'''

@@ -58,3 +58,44 @@ int main(){
 
     return 0;
 }
+
+/*
+#include <iostream>
+#include <string>
+using namespace std;
+int n, t, a_sum, b_sum, a, b;
+string s, pre;
+
+string print(int sum){
+    string m = "00" + to_string(sum / 60);
+    string s = "00" + to_string(sum % 60);
+    return m.substr(m.size()-2, 2) + ":" + s.substr(s.size()-2, 2);
+}
+
+int change_sec(string s){
+    return atoi(s.substr(0, 2).c_str()) * 60 + atoi(s.substr(3, 2).c_str());
+}
+
+void go(int &sum, string s){
+    sum += change_sec(s) - change_sec(pre);
+}
+
+int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL); cout.tie(NULL);
+    
+    cin >> n;
+    while(n--){
+        cin >> t >> s;
+        if(a > b) go(a_sum, s);
+        else if(b > a) go(b_sum, s);
+        t == 1 ? a++ : b++;
+        pre = s;
+    }
+    if(a > b) go(a_sum, "48:00");
+    else if(b > a) go(b_sum, "48:00");
+    cout << print(a_sum) << '\n';
+    cout << print(b_sum) << '\n';
+    return 0;
+}
+*/
