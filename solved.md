@@ -7,6 +7,11 @@
 
 **SOLVED**
 
+#### Silver 3
+| Date | 풀이 시간 | Problem | Python Code | C++ Code |
+|------|------|---------|-------------|-----------|
+| 2025-06-22 | 00:50:00 | [2852 : NBA 농구](https://www.acmicpc.net/problem/2852) | [Python](./baekjoon/nan/2852/2852.py) | [C++](./baekjoon/nan/2852/2852.cpp) |
+
 #### Silver 4
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
