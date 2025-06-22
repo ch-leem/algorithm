@@ -7,6 +7,11 @@
 
 **SOLVED**
 
+#### Gold 4
+| Date | 풀이 시간 | Problem | Python Code | C++ Code |
+|------|------|---------|-------------|-----------|
+| 2025-06-22 | 00:34:00 | [14502 : 연구소](https://www.acmicpc.net/problem/14502) | [Python](./baekjoon/basic2/14502/14502.py) | [C++](./baekjoon/basic2/14502/14502.cpp) |
+
 #### Silver 3
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
@@ -15,11 +20,14 @@
 #### Silver 4
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
+| 2025-06-22 | 00:13:00 | [9012 : 괄호](https://www.acmicpc.net/problem/9012) | [Python](./baekjoon/basic2/9012/9012.py) | [C++](./baekjoon/basic2/9012/9012.cpp) |
+| 2025-06-22 | 00:33:00 | [4949 : 균형잡힌 세상](https://www.acmicpc.net/problem/4949) | [Python](./baekjoon/basic2/4949/4949.py) | [C++](./baekjoon/basic2/4949/4949.cpp) |
 | 2025-06-09 | 00:28:00 | [2870 : 수학숙제](https://www.acmicpc.net/problem/2870) | [Python](./baekjoon/basic2/2870/2870.py) | [C++](./baekjoon/basic2/2870/2870.cpp) |
 
 #### Silver 5
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
+| 2025-06-22 | 00:10:00 | [1436 : 영화감독 숌](https://www.acmicpc.net/problem/1436) | [Python](./baekjoon/basic2/1436/1436.py) | [C++](./baekjoon/basic2/1436/1436.cpp) |
 | 2025-06-09 | 00:24:00 | [4659 : 비밀번호 발음하기](https://www.acmicpc.net/problem/4659) | [Python](./baekjoon/basic2/4659/4659.py) | [C++](./baekjoon/basic2/4659/4659.cpp) |
 | 2025-06-09 | 00:14:00 | [10709 : 기상캐스터](https://www.acmicpc.net/problem/10709) | [Python](./baekjoon/basic2/10709/10709.py) | [C++](./baekjoon/basic2/10709/10709.cpp) |
 
