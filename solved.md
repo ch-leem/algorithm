@@ -10,7 +10,7 @@
 #### Silver 3
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
-| 2025-06-22 | 00:50:00 | [2852 : NBA 농구](https://www.acmicpc.net/problem/2852) | [Python](./baekjoon/nan/2852/2852.py) | [C++](./baekjoon/nan/2852/2852.cpp) |
+| 2025-06-22 | 00:50:00 | [2852 : NBA 농구](https://www.acmicpc.net/problem/2852) | [Python](./baekjoon/basic2/2852/2852.py) | [C++](./baekjoon/basic2/2852/2852.cpp) |
 
 #### Silver 4
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
@@ -30,4 +30,4 @@
 #### Silver 3
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
-| 2025-06-11 | 00:59:00 | [3474 : 교수가 된 현우](https://www.acmicpc.net/problem/3474) | [Python](./baekjoon/nan/3474/3474.py) | [C++](./baekjoon/nan/3474/3474.cpp) |
+| 2025-06-11 | 00:59:00 | [3474 : 교수가 된 현우](https://www.acmicpc.net/problem/3474) | [Python](./baekjoon/basic2/3474/3474.py) | [C++](./baekjoon/basic2/3474/3474.cpp) |
