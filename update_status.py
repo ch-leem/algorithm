@@ -48,8 +48,8 @@ df['problem_url'] = parsed.apply(lambda x: x[3])
 
 # 정렬
 df_sorted = df.sort_values(
-    by=['date', 'site', 'status_order', 'level_order'],
-    ascending=[False, True, True, True]
+    by=['level_order', 'date', 'site', 'status_order'],
+    ascending=[True, False, True, True]
 )
 
 # Markdown 출력
