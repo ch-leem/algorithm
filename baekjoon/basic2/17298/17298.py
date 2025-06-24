@@ -1,4 +1,4 @@
-# 백준 : 17298 오큰수 (https://www.acmicpc.net/problem/17298)
+# 백준 17298 : 오큰수 (https://www.acmicpc.net/problem/17298)
 import sys
 
 n = int(sys.stdin.readline())
