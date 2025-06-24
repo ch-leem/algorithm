@@ -1,4 +1,4 @@
-// 백준 2363 : 치즈 (https://www.acmicpc.net/problem/2636)
+// 백준 2636 : 치즈 (https://www.acmicpc.net/problem/2636)
 #include <iostream>
 #include <algorithm>
 using namespace std;

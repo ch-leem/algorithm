@@ -1,4 +1,4 @@
-# 백준 2363 : 치즈 (https://www.acmicpc.net/problem/2636)
+# 백준 2636 : 치즈 (https://www.acmicpc.net/problem/2636)
 import sys 
 sys.setrecursionlimit(10**6)
 dy = [0,0,1,-1]
