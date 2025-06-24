@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import os
 from datetime import datetime
 
 # CSV 불러오기
@@ -83,8 +84,11 @@ for site in df_sorted['site'].unique():
                     code_root = row['code_root']
 
                     if site.lower() == '백준' and prob_num:
-                        code_py = f"[Python](./baekjoon/{code_root}/{prob_num}/{prob_num}.py)"
-                        code_cpp = f"[C++](./baekjoon/{code_root}/{prob_num}/{prob_num}.cpp)"
+                        py_path = f"./baekjoon/{code_root}/{prob_num}/{prob_num}.py"
+                        cpp_path = f"./baekjoon/{code_root}/{prob_num}/{prob_num}.cpp"
+
+                        code_py = f"[Python]({py_path})" if os.path.exists(py_path) else ""
+                        code_cpp = f"[C++]({cpp_path})" if os.path.exists(cpp_path) else ""
                     else:
                         code_py = ""
                         code_cpp = ""
