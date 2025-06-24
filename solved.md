@@ -7,6 +7,12 @@
 
 **SOLVED**
 
+#### Gold 4
+| Date | 풀이 시간 | Problem | Python Code | C++ Code |
+|------|------|---------|-------------|-----------|
+| 2025-06-23 | 00:49:00 | [2363 : 치즈](https://www.acmicpc.net/problem/2636) | [Python](./baekjoon/basic2/2363/2363.py) | [C++](./baekjoon/basic2/2363/2363.cpp) |
+| 2025-06-22 | 00:34:00 | [14502 : 연구소](https://www.acmicpc.net/problem/14502) | [Python](./baekjoon/basic2/14502/14502.py) | [C++](./baekjoon/basic2/14502/14502.cpp) |
+
 #### Gold 5
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
@@ -16,12 +22,6 @@
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
 | 2025-06-25 | 00:18:00 | [1325 : 효율적인 해킹](https://www.acmicpc.net/problem/1325) | [Python](./baekjoon/basic2/1325/1325.py) | [C++](./baekjoon/basic2/1325/1325.cpp) |
-
-#### Gold 4
-| Date | 풀이 시간 | Problem | Python Code | C++ Code |
-|------|------|---------|-------------|-----------|
-| 2025-06-23 | 00:49:00 | [2363 : 치즈](https://www.acmicpc.net/problem/2636) | [Python](./baekjoon/basic2/2363/2363.py) | [C++](./baekjoon/basic2/2363/2363.cpp) |
-| 2025-06-22 | 00:34:00 | [14502 : 연구소](https://www.acmicpc.net/problem/14502) | [Python](./baekjoon/basic2/14502/14502.py) | [C++](./baekjoon/basic2/14502/14502.cpp) |
 
 #### Silver 3
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
