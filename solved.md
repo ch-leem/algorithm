@@ -10,7 +10,7 @@
 #### Gold 4
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
-| 2025-06-27 | 00:35:00 | [16234 : 인구 이동](https://www.acmicpc.net/problem/16234) |  | [C++](./baekjoon/basic3/16234/16234.cpp) |
+| 2025-06-27 | 00:35:00 | [16234 : 인구 이동](https://www.acmicpc.net/problem/16234) | [Python](./baekjoon/basic3/16234/16234.py) | [C++](./baekjoon/basic3/16234/16234.cpp) |
 | 2025-06-23 | 00:49:00 | [2636 : 치즈](https://www.acmicpc.net/problem/2636) | [Python](./baekjoon/basic2/2636/2636.py) | [C++](./baekjoon/basic2/2636/2636.cpp) |
 | 2025-06-22 | 00:34:00 | [14502 : 연구소](https://www.acmicpc.net/problem/14502) | [Python](./baekjoon/basic2/14502/14502.py) | [C++](./baekjoon/basic2/14502/14502.cpp) |
 
