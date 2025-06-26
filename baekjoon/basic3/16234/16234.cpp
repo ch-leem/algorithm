@@ -67,6 +67,7 @@ int main(){
                 adj[i][j].clear();
             }
         }
+        fill(&visited[0][0], &visited[0][0] + 54*54, 0);
     
         // make adj : 국경선 open
         for(int i=0; i<n; i++){
@@ -77,7 +78,6 @@ int main(){
 
         // 연합의 인구수, 칸의 갯수
         group = 1;
-        fill(&visited[0][0], &visited[0][0] + 54*54, 0);
         ret_person.clear();
         ret_person.push_back(-1);
 
