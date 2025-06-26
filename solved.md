@@ -10,12 +10,15 @@
 #### Gold 4
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
+| 2025-06-27 | 00:35:00 | [16234 : 인구 이동](https://www.acmicpc.net/problem/16234) |  | [C++](./baekjoon/basic3/16234/16234.cpp) |
 | 2025-06-23 | 00:49:00 | [2636 : 치즈](https://www.acmicpc.net/problem/2636) | [Python](./baekjoon/basic2/2636/2636.py) | [C++](./baekjoon/basic2/2636/2636.cpp) |
 | 2025-06-22 | 00:34:00 | [14502 : 연구소](https://www.acmicpc.net/problem/14502) | [Python](./baekjoon/basic2/14502/14502.py) | [C++](./baekjoon/basic2/14502/14502.cpp) |
 
 #### Gold 5
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
+| 2025-06-27 | 00:25:00 | [15686 : 치킨 배달](https://www.acmicpc.net/problem/15686) |  | [C++](./baekjoon/basic3/15686/15686.cpp) |
+| 2025-06-27 | 00:20:00 | [2589 : 보물섬](https://www.acmicpc.net/problem/2589) |  | [C++](./baekjoon/basic3/2589/2589.cpp) |
 | 2025-06-25 | 00:52:00 | [1068 : 트리](https://www.acmicpc.net/problem/1068) | [Python](./baekjoon/basic2/1068/1068.py) | [C++](./baekjoon/basic2/1068/1068.cpp) |
 
 #### Silver 1
