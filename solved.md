@@ -10,7 +10,7 @@
 #### Gold 2
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
 |------|------|---------|-------------|-----------|
-| 2025-07-12 | 00:11:00 | [1007 : 벡터 매칭](https://www.acmicpc.net/problem/1007) | [Python](./baekjoon/basic3/1007/1007.py) | [C++](./baekjoon/basic3/1007/1007.cpp) |
+| 2025-07-12 | 00:15:00 | [1007 : 벡터 매칭](https://www.acmicpc.net/problem/1007) | [Python](./baekjoon/basic3/1007/1007.py) | [C++](./baekjoon/basic3/1007/1007.cpp) |
 
 #### Gold 3
 | Date | 풀이 시간 | Problem | Python Code | C++ Code |
