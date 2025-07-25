@@ -1,64 +1,62 @@
 // 백준 12869 :: 뮤탈리스크(https://www.acmicpc.net/problem/12869)
 #include <iostream>
-#include <vector>
+#include <queue>
 #include <algorithm>
+#include <vector>
 using namespace std;
-int n, tmp, min_ret;
-int scv[3];
-vector<int> v;
-vector<int> mutal = { 9, 3, 1 };
-
-void go(int cnt, int a, int b, int c) {
-
-	if (a <= 0 && b <= 0 && c <= 0) {
-		min_ret = min(min_ret, cnt);
-		return;
-	}
-	
-	go(cnt + 1, a - 9, b - 3, c - 1);
-	go(cnt + 1, a - 9, b - 1, c - 3);
-	go(cnt + 1, a - 3, b - 9, c - 1);
-	go(cnt + 1, a - 3, b - 1, c - 9);
-	go(cnt + 1, a - 1, b - 9, c - 3);
-	go(cnt + 1, a - 1, b - 3, c - 9);
-}
+int n;
+int scv[3], visited[61][61][61];
+vector<int> mutal = { 9,3,1 };
+vector<vector<int>> v; 
 
 int main() {
-	
+
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL); cout.tie(NULL);
 
 	cin >> n;
 	for (int i = 0; i < n; i++) {
 		cin >> scv[i];
-		//v.push_back(tmp);
 	}
 
-	min_ret = 1e9;
-	go(0, scv[0], scv[1], scv[2]);
+	struct A {
+		int a, b, c;
+	};
 
-	cout << min_ret << "\n";
+	queue<A> q;
+	q.push({ scv[0], scv[1], scv[2] });
+	visited[scv[0]][scv[1]][scv[2]] = 1;
+
+	sort(mutal.begin(), mutal.end());
+	do {
+		vector<int> tmp;
+		for (auto i : mutal) tmp.push_back(i);
+		v.push_back(tmp);
+
+	} while (next_permutation(mutal.begin(), mutal.end()));
+
+	while (!q.empty()) {
+
+		int a = q.front().a;
+		int b = q.front().b;
+		int c = q.front().c;
+
+		q.pop();
+		if (visited[0][0][0]) break;
+
+		for (vector<int> tmp : v) {
+			int na = max(0, a - tmp[0]);
+			int nb = max(0, b - tmp[1]);
+			int nc = max(0, c - tmp[2]);
+			
+			if (visited[na][nb][nc]) continue;
+			visited[na][nb][nc] = visited[a][b][c] + 1;
+
+			q.push({ na, nb, nc });
+		}
+	}
+
+	cout << visited[0][0][0]-1 << "\n";
 
 	return 0;
 }
-
-
-/*
-while (true) {
-
-		ret++;
-
-		sort(v.begin(), v.end(), greater<int>());
-		int cnt = 0;
-		for (int i = 0; i < v.size(); i++) {
-			v[i] -= mutal[i];
-			if (v[i] <= 0) cnt++;
-		}
-
-		if (cnt == v.size()) {
-			cout << ret << "\n";
-			break;
-		}
-	}
-
-*/
