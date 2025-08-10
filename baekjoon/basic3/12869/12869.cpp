@@ -1,4 +1,4 @@
-// 백준 12869 :: 뮤탈리스크(https://www.acmicpc.net/problem/12869)
+// 백준 12869 : 뮤탈리스크(https://www.acmicpc.net/problem/12869)
 #include <iostream>
 #include <queue>
 #include <algorithm>
