@@ -73,7 +73,7 @@ for site in df_sorted['site'].unique():
             level_df = status_df[status_df['level'] == level]
             if not level_df.empty:
                 markdown_output += f"\n#### {level}\n"
-                markdown_output += "| Date | 풀이 시간 | Problem | Python Code | C++ Code |\n"
+                markdown_output += "| Date | 풀이 시간 | Problem | C++ Code | Python Code |\n"
                 markdown_output += "|------|------|---------|-------------|-----------|\n"
                 for _, row in level_df.iterrows():
                     date = row['date']
@@ -94,7 +94,7 @@ for site in df_sorted['site'].unique():
                         code_cpp = ""
 
                     prob_link = f"[{prob_num} : {prob_title}]({prob_url})" if prob_url else f"{prob_num} : {prob_title}"
-                    markdown_output += f"| {date} | {time} | {prob_link} | {code_py} | {code_cpp} |\n"
+                    markdown_output += f"| {date} | {time} | {prob_link} | {code_cpp} | {code_py} |\n"
 
 # 마크다운 파일 저장
 with open("./solved.md", "w", encoding="utf-8") as f:
