@@ -1,3 +1,5 @@
 .vscode/
 _language/
 solved.csv
+.DS_Store
+__pycache__/
