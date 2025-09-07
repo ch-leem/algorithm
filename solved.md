@@ -62,22 +62,10 @@
 #### Gold 4
 | Date | 풀이 시간 | Problem | C++ Code | Python Code |
 |------|------|---------|-------------|-----------|
+| 2025-08-30 | 02:00:00 | [12869 : 뮤탈리스크](https://www.acmicpc.net/problem/12869) | [C++](./baekjoon/basic3/12869/12869.cpp) |  |
 | 2025-06-25 | 00:50:00 | [17298 : 오큰수](https://www.acmicpc.net/problem/17298) | [C++](./baekjoon/basic2/17298/17298.cpp) | [Python](./baekjoon/basic2/17298/17298.py) |
 
 #### Silver 3
 | Date | 풀이 시간 | Problem | C++ Code | Python Code |
 |------|------|---------|-------------|-----------|
 | 2025-06-11 | 00:59:00 | [3474 : 교수가 된 현우](https://www.acmicpc.net/problem/3474) | [C++](./baekjoon/basic2/3474/3474.cpp) | [Python](./baekjoon/basic2/3474/3474.py) |
-
----
-
-## 
-
----
-
-**SOLVED WITH HINT**
-
-#### Gold 4
-| Date | 풀이 시간 | Problem | C++ Code | Python Code |
-|------|------|---------|-------------|-----------|
-| 2025-08-30 | 02:00:00 |  : 백준 12869 : 뮤탈리스크(https://www.acmicpc.net/problem/12869) |  |  |
