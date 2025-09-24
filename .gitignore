@@ -3,3 +3,6 @@ _language/
 solved.csv
 .DS_Store
 __pycache__/
+a.cpp
+g++.txt
+test.out
